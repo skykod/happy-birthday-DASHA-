@@ -21,7 +21,7 @@ function startHearts(){
             for (let i = 0; i < count; i++) {
                 let heart = document.createElement("div");
                 heart.className = "heart";
-                heart.innerHTML = ["💖", "❤️", "💕", "💗"][Math.floor(Math.random()*4)];
+                heart.innerHTML = ["💖", "❤️", "💕", "💗","🌸"][Math.floor(Math.random()*4)];
 
                 heart.style.left = Math.random() * 100 + "vw";
                 heart.style.top = (-10 - Math.random() * 20) + "vh";

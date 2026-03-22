@@ -131,8 +131,8 @@ body{
     display: flex;
     justify-content: center; /* горизонталь */
     align-items: center;     /* вертикаль */
-    height: 20px;
-    margin-bottom:20px;
+    height: 50px;
+    margin-bottom:60px;
 
 }
 
